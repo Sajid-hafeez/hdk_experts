@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HDK Experts — We Cook</title>
+    <meta name="description" content="HDK Experts builds AI voice agents, RAG systems, custom chatbots, fine-tuned models & high-tech research solutions. We Cook." />
+    <meta name="keywords" content="AI voice agents, RAG systems, custom chatbots, fine-tuning, agentic AI, Islamabad, HDK Experts" />
+    <meta name="author" content="Sajid Hafeez" />
+    <meta name="robots" content="index, follow" />
+    <link rel="canonical" href="https://hdkexperts.com/" />
+    <!-- Open Graph -->
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://hdkexperts.com/" />
+    <meta property="og:title" content="HDK Experts — We Cook" />
+    <meta property="og:description" content="HDK Experts builds AI voice agents, RAG systems, custom chatbots, fine-tuned models & high-tech research solutions." />
+    <meta property="og:image" content="https://hdkexperts.com/static/assets/logo.png" />
+    <meta property="og:site_name" content="HDK Experts" />
+    <!-- Twitter / X -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="HDK Experts — We Cook" />
+    <meta name="twitter:description" content="HDK Experts builds AI voice agents, RAG systems, custom chatbots & more." />
+    <meta name="twitter:image" content="https://hdkexperts.com/static/assets/logo.png" />
+    <!-- JSON-LD Structured Data -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Organization",
+      "name": "HDK Experts",
+      "url": "https://hdkexperts.com",
+      "logo": "https://hdkexperts.com/static/assets/logo.png",
+      "description": "HDK Experts builds AI voice agents, RAG systems, custom chatbots, fine-tuned models & high-tech research solutions.",
+      "email": "info@hdkexperts.com",
+      "founder": {
+        "@type": "Person",
+        "name": "Sajid Hafeez",
+        "jobTitle": "Agentic AI Engineer"
+      },
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Islamabad",
+        "addressCountry": "PK"
+      },
+      "sameAs": [
+        "https://www.linkedin.com/in/sajid-hafeez-2b8430156/",
+        "https://www.upwork.com/freelancers/~01a21d8a6f3fb98ddb"
+      ]
+    }
+    </script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;700;800&family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,500;1,9..40,400&display=swap" rel="stylesheet" />
+    <link rel="icon" type="image/png" href="static/assets/logo.png" />
+    <link rel="stylesheet" href="static/css/style.css?v=3" />
+</head>
+<body>
+
+    <!-- ░░ PRELOADER ░░ -->
+    <div id="preloader" class="preloader">
+        <div class="pl-noise"></div>
+        <div class="pl-center">
+            <div class="pl-logo-wrap">
+                <img class="pl-logo" src="static/assets/logo.png" alt="HDK Experts" />
+                <img class="pl-logo-glitch" src="static/assets/logo.png" alt="" aria-hidden="true" />
+            </div>
+            <div class="pl-term" id="pl-term"></div>
+            <div class="pl-stamp" id="pl-stamp">WE COOK.</div>
+        </div>
+    </div>
+
+    <!-- ░░ CURSOR ░░ -->
+    <div class="cursor-ring" id="cursor-ring"></div>
+    <div class="cursor-dot"  id="cursor-dot"></div>
+
+    <!-- ░░ CANVAS ░░ -->
+    <canvas id="bg-canvas" aria-hidden="true"></canvas>
+
+    <!-- ░░ NAV ░░ -->
+    <nav class="nav" id="nav">
+        <div class="nav-inner container">
+            <a class="nav-logo" href="index.html">
+                <svg viewBox="0 0 36 36" fill="none"><rect width="36" height="36" rx="9" fill="#00FF87"/><path d="M9 18 L18 9 L27 18 L18 27 Z" fill="#000"/></svg>
+                HDK<span>EXPERTS</span>
+            </a>
+            <ul class="nav-links">
+                <li><a href="#services">Services</a></li>
+                <li><a href="#stats">Results</a></li>
+                <li><a href="about.html">Founder</a></li>
+                <li><a href="mailto:info@hdkexperts.com" class="nav-cta">Let's Cook →</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- ░░ HERO ░░ -->
+    <section class="hero" id="hero">
+        <div class="hero-bg-text" aria-hidden="true">COOK</div>
+        <div class="container hero-inner">
+            <div class="hero-tag">
+                <span class="tag-dot"></span>
+                <span>hdkexperts.com — EST. 2024</span>
+            </div>
+            <h1 class="hero-h1">
+                <span class="h1-line" id="h1-line-1">We</span>
+                <span class="h1-line h1-accent" id="h1-line-2">Cook.</span>
+            </h1>
+            <p class="hero-sub">
+                AI products with real teeth — voice agents that <em>close</em>,
+                RAG that <em>cites</em>, bots that <em>convert</em>,
+                fine-tunes that <em>specialize</em>, research that <em>ships</em>.
+            </p>
+            <div class="hero-actions">
+                <a class="btn btn-solid magnetic" href="#services" data-magnetic>See the stack</a>
+                <a class="btn btn-outline magnetic" href="mailto:info@hdkexperts.com" data-magnetic>Start a build</a>
+            </div>
+
+            <div class="hero-pills">
+                <div class="pill"><span class="pill-dot"></span>Voice AI</div>
+                <div class="pill">RAG &amp; Retrieval</div>
+                <div class="pill">Chatbots</div>
+                <div class="pill">Fine-tuning</div>
+                <div class="pill">Research</div>
+                <div class="pill">Automation</div>
+            </div>
+        </div>
+
+        <div class="hero-wave-wrap" aria-hidden="true">
+            <svg class="hero-wave" viewBox="0 0 1200 180" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
+                <path id="wave-path" d="M0,90 C200,160 400,20 600,90 C800,160 1000,20 1200,90" fill="none" stroke="url(#wg)" stroke-width="3"/>
+                <defs>
+                    <linearGradient id="wg" x1="0" y1="0" x2="1" y2="0">
+                        <stop offset="0%" stop-color="#00FF87"/>
+                        <stop offset="50%" stop-color="#FF2D78"/>
+                        <stop offset="100%" stop-color="#00FF87"/>
+                    </linearGradient>
+                </defs>
+            </svg>
+        </div>
+    </section>
+
+    <!-- ░░ MARQUEE ░░ -->
+    <div class="marquee-wrap">
+        <div class="marquee-inner">
+            <div class="marquee-track">
+                <span>AI VOICE AGENTS</span><span class="mx">✦</span>
+                <span>RAG SYSTEMS</span><span class="mx">✦</span>
+                <span>CUSTOM CHATBOTS</span><span class="mx">✦</span>
+                <span>FINE-TUNING</span><span class="mx">✦</span>
+                <span>HIGH-TECH RESEARCH</span><span class="mx">✦</span>
+                <span>AI AUTOMATION</span><span class="mx">✦</span>
+                <span>AI VOICE AGENTS</span><span class="mx">✦</span>
+                <span>RAG SYSTEMS</span><span class="mx">✦</span>
+                <span>CUSTOM CHATBOTS</span><span class="mx">✦</span>
+                <span>FINE-TUNING</span><span class="mx">✦</span>
+                <span>HIGH-TECH RESEARCH</span><span class="mx">✦</span>
+                <span>AI AUTOMATION</span><span class="mx">✦</span>
+            </div>
+        </div>
+    </div>
+
+    <main>
+
+        <!-- ░░ SERVICES ░░ -->
+        <section id="services" class="section container">
+            <div class="section-head">
+                <p class="eyebrow">What we cook</p>
+                <h2 class="section-h2">Production-grade AI,<br/>zero demo fluff.</h2>
+            </div>
+
+            <div class="bento">
+                <article class="bento-card card-1 reveal" data-tilt>
+                    <div class="bento-num" aria-hidden="true">01</div>
+                    <div class="bento-icon-wrap">
+                        <div class="bento-icon">
+                            <svg viewBox="0 0 28 28" fill="none"><circle cx="14" cy="14" r="9" stroke="#00FF87" stroke-width="1.8"/><path d="M9 14a5 5 0 0 1 10 0" stroke="#00FF87" stroke-width="1.8" stroke-linecap="round"/><circle cx="14" cy="14" r="2.5" fill="#00FF87"/></svg>
+                        </div>
+                    </div>
+                    <p class="bento-tag">Voice AI</p>
+                    <h3 class="bento-title">AI Voice Calling Agents</h3>
+                    <p class="bento-desc">Human-sounding outbound and inbound AI callers for sales, support, follow-ups, and lead qualification.</p>
+                    <a class="bento-link" href="mailto:info@hdkexperts.com">
+                        Build this <svg viewBox="0 0 16 16" fill="none"><path d="M3 8h10M9 4l4 4-4 4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg>
+                    </a>
+                    <div class="bento-shine"></div>
+                </article>
+                <article class="bento-card card-2 reveal" data-tilt>
+                    <div class="bento-num" aria-hidden="true">02</div>
+                    <div class="bento-icon-wrap">
+                        <div class="bento-icon">
+                            <svg viewBox="0 0 28 28" fill="none"><rect x="4" y="4" width="20" height="20" rx="3" stroke="#FF2D78" stroke-width="1.8"/><path d="M9 14h10M14 9v10" stroke="#FF2D78" stroke-width="1.8" stroke-linecap="round"/></svg>
+                        </div>
+                    </div>
+                    <p class="bento-tag">Retrieval</p>
+                    <h3 class="bento-title">RAG Systems</h3>
+                    <p class="bento-desc">Context-aware retrieval pipelines that turn your private knowledge into high-accuracy AI responses.</p>
+                    <a class="bento-link" href="mailto:info@hdkexperts.com">
+                        Build this <svg viewBox="0 0 16 16" fill="none"><path d="M3 8h10M9 4l4 4-4 4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg>
+                    </a>
+                    <div class="bento-shine"></div>
+                </article>
+                <article class="bento-card card-3 reveal" data-tilt>
+                    <div class="bento-num" aria-hidden="true">03</div>
+                    <div class="bento-icon-wrap">
+                        <div class="bento-icon">
+                            <svg viewBox="0 0 28 28" fill="none"><path d="M5 22 Q14 4 23 22" stroke="#FFD700" stroke-width="1.8" stroke-linecap="round" fill="none"/><circle cx="14" cy="16" r="3" fill="#FFD700"/><path d="M8 22h12" stroke="#FFD700" stroke-width="1.8" stroke-linecap="round"/></svg>
+                        </div>
+                    </div>
+                    <p class="bento-tag">Chatbots</p>
+                    <h3 class="bento-title">Custom Chatbots</h3>
+                    <p class="bento-desc">Brand-native assistants tailored to your workflows, tone, tools, and customer journeys.</p>
+                    <a class="bento-link" href="mailto:info@hdkexperts.com">
+                        Build this <svg viewBox="0 0 16 16" fill="none"><path d="M3 8h10M9 4l4 4-4 4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg>
+                    </a>
+                    <div class="bento-shine"></div>
+                </article>
+                <article class="bento-card card-4 reveal" data-tilt>
+                    <div class="bento-num" aria-hidden="true">04</div>
+                    <div class="bento-icon-wrap">
+                        <div class="bento-icon">
+                            <svg viewBox="0 0 28 28" fill="none"><path d="M7 22 L14 6 L21 22" stroke="#4EF2E2" stroke-width="1.8" stroke-linejoin="round" fill="none" stroke-linecap="round"/><path d="M9.5 17h9" stroke="#4EF2E2" stroke-width="1.8" stroke-linecap="round"/></svg>
+                        </div>
+                    </div>
+                    <p class="bento-tag">Fine-tuning</p>
+                    <h3 class="bento-title">Fine-tuning</h3>
+                    <p class="bento-desc">Task-specific model optimization for measurable gains in quality, speed, and consistency.</p>
+                    <a class="bento-link" href="mailto:info@hdkexperts.com">
+                        Build this <svg viewBox="0 0 16 16" fill="none"><path d="M3 8h10M9 4l4 4-4 4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg>
+                    </a>
+                    <div class="bento-shine"></div>
+                </article>
+                <article class="bento-card card-5 reveal" data-tilt>
+                    <div class="bento-num" aria-hidden="true">05</div>
+                    <div class="bento-icon-wrap">
+                        <div class="bento-icon">
+                            <svg viewBox="0 0 28 28" fill="none"><circle cx="14" cy="8" r="3.5" stroke="#A78BFA" stroke-width="1.8"/><circle cx="7" cy="20" r="3.5" stroke="#A78BFA" stroke-width="1.8"/><circle cx="21" cy="20" r="3.5" stroke="#A78BFA" stroke-width="1.8"/><path d="M14 11.5 L7 16.5 M14 11.5 L21 16.5" stroke="#A78BFA" stroke-width="1.8" stroke-linecap="round"/></svg>
+                        </div>
+                    </div>
+                    <p class="bento-tag">Research</p>
+                    <h3 class="bento-title">High-Tech Research</h3>
+                    <p class="bento-desc">Rapid R&D for frontier AI ideas, prototype validation, and production-ready innovation maps.</p>
+                    <a class="bento-link" href="mailto:info@hdkexperts.com">
+                        Build this <svg viewBox="0 0 16 16" fill="none"><path d="M3 8h10M9 4l4 4-4 4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg>
+                    </a>
+                    <div class="bento-shine"></div>
+                </article>
+                <article class="bento-card card-6 reveal" data-tilt>
+                    <div class="bento-num" aria-hidden="true">06</div>
+                    <div class="bento-icon-wrap">
+                        <div class="bento-icon">
+                            <svg viewBox="0 0 28 28" fill="none"><circle cx="14" cy="14" r="7" stroke="#FF8A5C" stroke-width="2.4" stroke-dasharray="4 2.2"/><circle cx="14" cy="14" r="3.4" stroke="#FF8A5C" stroke-width="1.8"/></svg>
+                        </div>
+                    </div>
+                    <p class="bento-tag">AI Automation</p>
+                    <h3 class="bento-title">AI Automation for Business</h3>
+                    <p class="bento-desc">Automate your business operations end-to-end with AI — workflows, documents, data entry, and reporting. Example: we fully automated constructional quantity takeoff.</p>
+                    <a class="bento-link" href="mailto:info@hdkexperts.com">
+                        Build this <svg viewBox="0 0 16 16" fill="none"><path d="M3 8h10M9 4l4 4-4 4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg>
+                    </a>
+                    <div class="bento-shine"></div>
+                </article>
+            </div>
+        </section>
+
+        <!-- ░░ STATS ░░ -->
+        <section id="stats" class="section container">
+            <div class="stats-grid">
+                <div class="stat reveal">
+                    <p class="stat-val"><span data-count="24">0</span>+</p>
+                    <p class="stat-label">Deployments shipped</p>
+                </div>
+                <div class="stat reveal">
+                    <p class="stat-val"><span data-count="11">0</span></p>
+                    <p class="stat-label">Industries served</p>
+                </div>
+                <div class="stat reveal">
+                    <p class="stat-val"><span data-count="100">0</span>%</p>
+                    <p class="stat-label">Focus on real outcomes</p>
+                </div>
+                <div class="stat reveal">
+                    <p class="stat-val"><span data-count="48">0</span>h</p>
+                    <p class="stat-label">Avg. prototype time</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- ░░ CTA ░░ -->
+        <section class="section cta-section container reveal">
+            <div class="cta-box">
+                <div class="cta-glow"></div>
+                <p class="cta-eyebrow">Ready?</p>
+                <h2 class="cta-h2">Let's cook something<br/><span class="cta-accent">actually insane.</span></h2>
+                <a class="btn btn-solid magnetic" href="mailto:info@hdkexperts.com" data-magnetic>Book a build sprint →</a>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- ░░ FOOTER ░░ -->
+    <footer class="footer container">
+        <div class="footer-inner">
+            <a class="nav-logo" href="index.html">
+                <img src="static/assets/logo.png" alt="HDK Experts" class="nav-logo-img" />
+            </a>
+            <p class="footer-copy">© 2026 HDK Experts — hdkexperts.com</p>
+        </div>
+    </footer>
+
+    <script src="static/js/main.js?v=3"></script>
+</body>
+</html>

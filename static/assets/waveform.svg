@@ -1,0 +1,10 @@
+<svg viewBox="0 0 800 160" fill="none" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="none">
+  <defs>
+    <linearGradient id="wg" x1="0" y1="0" x2="800" y2="0" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#00FF87"/>
+      <stop offset="50%" stop-color="#FF2D78"/>
+      <stop offset="100%" stop-color="#00FF87"/>
+    </linearGradient>
+  </defs>
+  <path d="M0 80 L20 80 L30 20 L40 140 L50 30 L60 120 L75 10 L90 150 L102 25 L115 130 L127 45 L140 110 L154 55 L168 100 L182 60 L196 95 L210 65 L224 92 L238 70 L252 88 L266 74 L280 84 L294 78 L310 80 L326 74 L340 88 L356 68 L372 95 L388 60 L404 100 L420 55 L436 108 L452 45 L468 125 L482 30 L498 145 L512 22 L526 130 L540 38 L556 120 L572 55 L586 105 L600 65 L614 95 L628 72 L642 88 L656 76 L670 84 L684 78 L700 80 L720 80 L800 80" stroke="url(#wg)" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>

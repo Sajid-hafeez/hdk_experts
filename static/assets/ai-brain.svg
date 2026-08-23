@@ -1,0 +1,74 @@
+<svg viewBox="0 0 540 480" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="gb" x1="0" y1="0" x2="540" y2="480" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#00FF87"/>
+      <stop offset="55%" stop-color="#4ef2e2"/>
+      <stop offset="100%" stop-color="#A78BFA"/>
+    </linearGradient>
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="4" result="blur"/>
+      <feComposite in="SourceGraphic" in2="blur" operator="over"/>
+    </filter>
+    <radialGradient id="bg" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#111111"/>
+      <stop offset="100%" stop-color="#000000"/>
+    </radialGradient>
+  </defs>
+
+  <!-- Card BG -->
+  <rect width="540" height="480" rx="32" fill="url(#bg)" stroke="rgba(255,255,255,0.08)" stroke-width="1"/>
+
+  <!-- Grid lines -->
+  <line x1="0" y1="120" x2="540" y2="120" stroke="rgba(255,255,255,0.04)" stroke-width="1"/>
+  <line x1="0" y1="240" x2="540" y2="240" stroke="rgba(255,255,255,0.04)" stroke-width="1"/>
+  <line x1="0" y1="360" x2="540" y2="360" stroke="rgba(255,255,255,0.04)" stroke-width="1"/>
+  <line x1="135" y1="0" x2="135" y2="480" stroke="rgba(255,255,255,0.04)" stroke-width="1"/>
+  <line x1="270" y1="0" x2="270" y2="480" stroke="rgba(255,255,255,0.04)" stroke-width="1"/>
+  <line x1="405" y1="0" x2="405" y2="480" stroke="rgba(255,255,255,0.04)" stroke-width="1"/>
+
+  <!-- Neural nodes -->
+  <g filter="url(#glow)">
+    <!-- Layer 1 -->
+    <circle cx="90"  cy="120" r="10" fill="url(#gb)"/>
+    <circle cx="90"  cy="240" r="10" fill="url(#gb)"/>
+    <circle cx="90"  cy="360" r="10" fill="url(#gb)"/>
+
+    <!-- Layer 2 -->
+    <circle cx="225" cy="80"  r="12" fill="url(#gb)"/>
+    <circle cx="225" cy="200" r="12" fill="url(#gb)"/>
+    <circle cx="225" cy="300" r="12" fill="url(#gb)"/>
+    <circle cx="225" cy="400" r="12" fill="url(#gb)"/>
+
+    <!-- Layer 3 -->
+    <circle cx="360" cy="120" r="10" fill="url(#gb)"/>
+    <circle cx="360" cy="240" r="10" fill="url(#gb)"/>
+    <circle cx="360" cy="360" r="10" fill="url(#gb)"/>
+
+    <!-- Output -->
+    <circle cx="470" cy="240" r="14" fill="#00FF87"/>
+
+    <!-- Connections L1→L2 -->
+    <line x1="100" y1="120" x2="213" y2="80"  stroke="url(#gb)" stroke-width="1.2" stroke-opacity="0.4"/>
+    <line x1="100" y1="120" x2="213" y2="200" stroke="url(#gb)" stroke-width="1.2" stroke-opacity="0.4"/>
+    <line x1="100" y1="240" x2="213" y2="200" stroke="url(#gb)" stroke-width="1.2" stroke-opacity="0.4"/>
+    <line x1="100" y1="240" x2="213" y2="300" stroke="url(#gb)" stroke-width="1.2" stroke-opacity="0.4"/>
+    <line x1="100" y1="360" x2="213" y2="300" stroke="url(#gb)" stroke-width="1.2" stroke-opacity="0.4"/>
+    <line x1="100" y1="360" x2="213" y2="400" stroke="url(#gb)" stroke-width="1.2" stroke-opacity="0.4"/>
+
+    <!-- Connections L2→L3 -->
+    <line x1="237" y1="80"  x2="348" y2="120" stroke="url(#gb)" stroke-width="1.2" stroke-opacity="0.4"/>
+    <line x1="237" y1="200" x2="348" y2="120" stroke="url(#gb)" stroke-width="1.2" stroke-opacity="0.4"/>
+    <line x1="237" y1="200" x2="348" y2="240" stroke="url(#gb)" stroke-width="1.2" stroke-opacity="0.4"/>
+    <line x1="237" y1="300" x2="348" y2="240" stroke="url(#gb)" stroke-width="1.2" stroke-opacity="0.4"/>
+    <line x1="237" y1="300" x2="348" y2="360" stroke="url(#gb)" stroke-width="1.2" stroke-opacity="0.4"/>
+    <line x1="237" y1="400" x2="348" y2="360" stroke="url(#gb)" stroke-width="1.2" stroke-opacity="0.4"/>
+
+    <!-- Connections L3→Out -->
+    <line x1="370" y1="120" x2="456" y2="240" stroke="#00FF87" stroke-width="1.5" stroke-opacity="0.6"/>
+    <line x1="370" y1="240" x2="456" y2="240" stroke="#00FF87" stroke-width="1.5" stroke-opacity="0.6"/>
+    <line x1="370" y1="360" x2="456" y2="240" stroke="#00FF87" stroke-width="1.5" stroke-opacity="0.6"/>
+  </g>
+
+  <!-- Label -->
+  <text x="32" y="458" font-family="Syne, sans-serif" font-size="13" font-weight="700" fill="rgba(255,255,255,0.3)" letter-spacing="3">NEURAL NETWORK</text>
+</svg>
